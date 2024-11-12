@@ -17,7 +17,7 @@ div {
     margin: 0;
     padding: 0;
     width: 95vw;
-    height: 15vh;
+    height: 13vh;
     border: 1px solid rgba(155,177,128,255);
     font-size: 40px;
     text-align: right;
@@ -40,12 +40,24 @@ div {
 
 @media (min-width: 900px) {
     #t1, #t2 {
-        width: 800px;
-        height: 50px;
+        width: 850px;
+        height: 100px;
     }
 
     .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
         width: 220px;
         height: 83px;
+    }
+}
+
+@media (max-height: 600px) {
+    #t1, #t2 {
+        width: 95vw;
+        height: 13vh;
+    }
+
+    .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
+        width: 30vw;
+        height: 12vh;
     }
 }
