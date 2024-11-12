@@ -27,7 +27,7 @@ div {
 
 .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
     width: 30vw;
-    height: 12vh;
+    height: 10vh;
     background-color: rgb(51, 50, 50);
     color: white;
     border: 3px solid white;
@@ -50,7 +50,7 @@ div {
     }
 }
 
-@media (max-height: 600px) {
+@media (max-height: 700px) {
     #t1, #t2 {
         width: 95vw;
         height: 10vh;
@@ -58,6 +58,6 @@ div {
 
     .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
         width: 30vw;
-        height: 12vh;
+        height: 10vh;
     }
 }
