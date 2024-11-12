@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tfirst">
+        <input type="text" id="t1">
+        <input type="text" id="t2">
+    </div>
+    <div class="first">
+        <input type="button" value="AC" class="AC" onclick="Clear()">
+        <input type="button" value="C" class="C" onclick="Back()">
+        <input type="button" value="%" class="per" onclick="Solve('%')">
+        <input type="button" value="/" class="div" onclick="Solve('/')">
+    </div>
+    <div class="second">
+        <input type="button" value="1" class="one" onclick="Solve('1')">
+        <input type="button" value="2" class="two" onclick="Solve('2')">
+        <input type="button" value="3" class="three" onclick="Solve('3')">
+        <input type="button" value="X" class="mul" onclick="Solve('*')">
+    </div>
+    <div class="third">
+        <input type="button" value="4" class="four" onclick="Solve('4')">
+        <input type="button" value="5" class="five" onclick="Solve('5')">
+        <input type="button" value="6" class="six" onclick="Solve('6')">
+        <input type="button" value="-" class="sub" onclick="Solve('-')">
+    </div>
+    <div class="fourth">
+        <input type="button" value="7" class="seven" onclick="Solve('7')">
+        <input type="button" value="8" class="eight" onclick="Solve('8')">
+        <input type="button" value="9" class="nine" onclick="Solve('9')">
+        <input type="button" value="+" class="add" onclick="Solve('+')">
+    </div>
+    <div class="fifth">
+        <input type="button" value="00" class="zero2" onclick="Solve('00')">
+        <input type="button" value="0" class="zero1" onclick="Solve('0')">
+        <input type="button" value="." class="dot" onclick="Solve('.')">
+        <input type="button" value="=" class="eq" onclick="Result()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
