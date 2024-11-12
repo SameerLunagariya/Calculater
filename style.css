@@ -17,7 +17,7 @@ div {
     margin: 0;
     padding: 0;
     width: 95vw;
-    height: 10vh;
+    height: 13vh;
     border: 1px solid rgba(155,177,128,255);
     font-size: 40px;
     text-align: right;
@@ -27,7 +27,7 @@ div {
 
 .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
     width: 30vw;
-    height: 10vh;
+    height: 12vh;
     background-color: rgb(51, 50, 50);
     color: white;
     border: 3px solid white;
@@ -47,17 +47,5 @@ div {
     .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
         width: 220px;
         height: 83px;
-    }
-}
-
-@media (max-height: 700px) {
-    #t1, #t2 {
-        width: 95vw;
-        height: 10vh;
-    }
-
-    .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
-        width: 30vw;
-        height: 10vh;
     }
 }
