@@ -37,7 +37,7 @@ div {
     border: 3px solid #000000;
     font-size: 30px;
     border-radius: 100%;
-    margin: 2px 3px;
+    margin: 2px 4px;
 }
 
 .AC, .C, .per, .div, .mul, .sub, .add {
@@ -67,6 +67,6 @@ div {
 
 @media (max-width: 600px) {
     .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
-        height: 12vh;
+        height: 11vh;
     }
 }
