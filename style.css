@@ -27,6 +27,7 @@ div {
     text-align: right;
     background-color: #000000;
     color: #ECECEC;
+    outline: none;
 }
 
 .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
