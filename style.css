@@ -26,15 +26,15 @@ div {
     font-size: 40px;
     text-align: right;
     background-color: #000000;
-    color: #ECECEC;
+    color: white;
     outline: none;
 }
 
 .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
     width: 20vw;
-    height: 15vh;
+    height: 10vh;
     background-color: #2E2E2E;
-    color: #ECECEC;
+    color: white;
     border: 3px solid #000000;
     font-size: 30px;
     border-radius: 100%;
@@ -50,7 +50,7 @@ div {
 }
 
 .first {
-    margin-top: 8vh;
+    margin-top: 5vh;
 }
 
 @media (min-width: 900px) {
@@ -68,6 +68,6 @@ div {
 
 @media (max-width: 600px) {
     .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
-        height: 11vh;
+        height: 10vh;
     }
 }
