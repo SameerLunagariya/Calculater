@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #000000;
+}
+
 div {
     display: flex;
     justify-content: center;
@@ -16,36 +20,55 @@ div {
 #t1, #t2 {
     margin: 0;
     padding: 0;
-    width: 95vw;
-    height: 13vh;
-    border: 1px solid rgba(155,177,128,255);
+    width: 90vw;
+    height: 10vh;
+    border: 1px solid #000000;
     font-size: 40px;
     text-align: right;
-    background-color: rgba(155,177,128,255);
-    color: black;
+    background-color: #000000;
+    color: #ECECEC;
 }
 
 .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
-    width: 30vw;
-    height: 12vh;
-    background-color: rgb(51, 50, 50);
-    color: white;
-    border: 3px solid white;
+    width: 25vw;
+    height: 13vh;
+    background-color: #2E2E2E;
+    color: #ECECEC;
+    border: 3px solid #000000;
     font-size: 30px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.AC, .C, .per, .div, .mul, .sub, .add {
+    background-color: #1E1E1E;
+}
+
+.eq {
+    background-color: #64798A;
 }
 
 .first {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 @media (min-width: 900px) {
     #t1, #t2 {
         width: 850px;
-        height: 100px;
+        height: 80px;
     }
 
     .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
-        width: 220px;
+        width: 200px;
         height: 83px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .AC, .C, .per, .div, .one, .two, .three, .mul, .four, .five, .six, .sub, .seven, .eight, .nine, .add, .zero2, .zero1, .dot, .eq{
+        width: 25vw;
+        height: 13vh;
+        border-radius: 100%;
     }
 }
